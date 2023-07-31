@@ -8,12 +8,12 @@ repositories {
 
 dependencies {
     testImplementation(
-            "com.codeborne:selenide:6.3.5",
-            "org.junit.jupiter:junit-jupiter:5.8.2",
-            "org.slf4j:slf4j-simple:1.7.36"
+            'com.codeborne:selenide:6.16.1',
+            'org.junit.jupiter:junit-jupiter:5.10.0',
+            'org.slf4j:slf4j-simple:2.0.7'
     )
 }
 
 test {
-    useJUnitPlatform()
+    useJUnitPlatform() // говорит о том, что будет использоваться 5 JUnit
 }
